@@ -1,0 +1,35 @@
+{
+  "name": "rn2react",
+  "version": "1.0.0",
+  "description": "- 工具cli 执行rn2react - 可配置transConfig.js",
+  "main": "bin/rn2react.js",
+  "files": [
+    "bin"
+  ],
+  "bin": {
+    "rn2react": "bin/rn2react.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lamack/rn2react.git"
+  },
+  "keywords": [],
+  "author": "lamack",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lamack/rn2react/issues"
+  },
+  "homepage": "https://github.com/lamack/rn2react#readme",
+  "dependencies": {
+    "@babel/generator": "^7.15.0",
+    "@babel/parser": "^7.15.3",
+    "@babel/traverse": "^7.15.0",
+    "@babel/types": "^7.15.0",
+    "cssom": "^0.5.0",
+    "neo-async": "^2.6.2",
+    "nodemon": "^2.0.12"
+  }
+}
